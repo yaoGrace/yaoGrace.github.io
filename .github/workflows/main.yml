@@ -19,7 +19,7 @@ jobs:  # 定义工作流程中的作业
         with:  # 配置 setup-node 动作
           node-version: 20  # 指定 Node.js 的版本为 20
           cache: pnpm  # 启用 pnpm 缓存
-      - run: pnpm install --frozen-lockfile  # 运行命令来安装依赖，并锁定 package-lock 文件
+      - run: npm ci  # 运行命令来安装依赖，并锁定 package-lock 文件
       - name: Build  # 定义步骤的名称：构建
         run: BASE_PATH=/ pnpm docs:build  # 运行命令来构建文档，设置基础路径为 /zui/3/
       - name: Deploy  # 定义步骤的名称：部署
