@@ -4,8 +4,8 @@ import {
 } from "./chunk-ONFHZ5OS.js";
 
 // node_modules/vitepress-plugin-tabs/src/client/index.ts
-import PluginTabs from "E:/github/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
-import PluginTabsTab from "E:/github/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
+import PluginTabs from "E:/gitee源码/yaograce.github.io/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
+import PluginTabsTab from "E:/gitee源码/yaograce.github.io/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
 
 // node_modules/vitepress-plugin-tabs/src/client/useTabsSelectedState.ts
 var injectionKey = "vitepress:tabSharedState";

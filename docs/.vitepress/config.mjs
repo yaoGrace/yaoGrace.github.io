@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import nav from './config/topNav';  // 导入导航配置
 import sidebar from './config/sidebar'; //导入侧边栏配置
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs' //导入Tab插件
-
+const base = process.env.BASE_PATH ?? '/';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 网站头部信息配置
@@ -13,10 +13,9 @@ export default defineConfig({
     ['meta',  { name: 'keywords',  content: '一个资源站，平时用于收集学习记录的小破站！' } ] , //网站关键字
     ['link',  { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }], //网站图标
     ['meta',  { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' } ],
-    ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标
-    ['link', { rel: 'stylesheet', href: '/style.css' }], // 导入自定义样式，里面有一些样式是为了兼容zui的样式覆盖
-    ['link', { rel: 'stylesheet', href: '/zui/zui.css' }], //导入zui3前端框架css 
-    ['script', { src: '/zui/zui.js' }], //导入zui3前端框架js
+    ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
+    ['link', {rel: 'stylesheet', href: `${base}zui/zui.css?v=${Date.now() % 10000}`}],
+    ['script', {src: `${base}zui/zui.js?v=${Date.now() % 10000}`}],
   ],
   // 主题配置
   themeConfig: {
