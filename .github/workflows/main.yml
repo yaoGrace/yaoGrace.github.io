@@ -11,15 +11,15 @@ jobs:  # 定义工作流程中的作业
     runs-on: ubuntu-latest  # 指定运行作业的虚拟机环境为最新版本的 Ubuntu
 
     steps:  # 定义作业中的步骤
-      - uses: actions/checkout@v2  # 使用 checkout 动作来检出仓库的代码
-      - uses: pnpm/action-setup@v2  # 使用 pnpm 动作来设置 pnpm 环境
+      - uses: actions/checkout@v4  # 使用 checkout 动作来检出仓库的代码
+      #- uses: pnpm/action-setup@v2  # 使用 pnpm 动作来设置 pnpm 环境
         with:  # 配置 pnpm 动作
           version: 9  # 指定 pnpm 的版本为 9
-      - uses: actions/setup-node@v3  # 使用 setup-node 动作来设置 Node.js 环境
+      - uses: actions/setup-node@v4  # 使用 setup-node 动作来设置 Node.js 环境
         with:  # 配置 setup-node 动作
           node-version: 20  # 指定 Node.js 的版本为 20
-          cache: pnpm  # 启用 pnpm 缓存
-      - run: npm ci  # 运行命令来安装依赖，并锁定 package-lock 文件
+          cache: npm  # 启用 pnpm 缓存
+      - run: npm ci --frozen-lockfile  # 运行命令来安装依赖，并锁定 package-lock 文件
       - name: Build  # 定义步骤的名称：构建
         run: BASE_PATH=/ pnpm docs:build  # 运行命令来构建文档，设置基础路径为 /zui/3/
       - name: Deploy  # 定义步骤的名称：部署
