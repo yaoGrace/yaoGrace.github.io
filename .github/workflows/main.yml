@@ -27,4 +27,4 @@ jobs:  # 定义工作流程中的作业
         with:  # 配置 gh-pages 动作
           github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌来授权操作
           publish_dir: docs/_/.vitepress/dist  # 指定要发布的目录
-          destination_dir: /  # 指定在 GitHub Pages 上的目标部署目录
+          destination_dir: '.' # 设置为根目录
