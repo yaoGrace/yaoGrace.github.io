@@ -1,0 +1,168 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+ :root {
+    --vp-c-brand-1: #44bd87;
+    --vp-c-brand-2: #249252;
+    --vp-c-brand-3: #19633b;
+    --vp-c-brand-soft: #69e8af50;
+  
+    --vp-c-text-code: #528d52;
+  
+    --vp-code-block-bg: rgba(125, 125, 125, 0.04);
+    --vp-code-copy-code-bg: rgba(125, 125, 125, 0.1);
+    --vp-code-copy-code-hover-bg: rgba(125, 125, 125, 0.2);
+  
+    --vp-c-disabled-bg: rgba(125, 125, 125, 0.2);
+    /* fix contrast on gray cards: used by --vp-c-text-2 */
+    --vp-c-text-light-2: rgba(56 56 56 / 70%);
+    --vp-c-text-dark-2: rgba(56 56 56 / 70%);
+  
+    /* --vp-custom-block-info-bg: transparent; */
+    --vp-custom-block-tip-bg: transparent;
+  
+    --vp-custom-block-warning-bg: #d9a40605;
+    --vp-custom-block-warning-text: #d9a406;
+    --vp-custom-block-warning-border: #d9a40630;
+  
+    --vp-custom-block-tip-bg: #44bd8705;
+    --vp-custom-block-tip-text: #44bd87;
+    --vp-custom-block-tip-border: #44bd8730;
+  
+    --vp-code-color: #729772;
+ 
+  }
+  
+  .dark {
+    --vp-code-block-bg: var(--vp-c-bg-alt);
+    --vp-c-text-code: #c0cec0;
+    /* fix contrast on gray cards: check the same above (this is the default) */
+    --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
+  }
+  
+  /**
+   * Component: Code
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-code-line-highlight-color: rgba(125, 125, 125, 0.2);
+  }
+  
+  .dark {
+    --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
+  }
+  /* 重写 */
+ .vp-doc h1{
+    font-size: 20px!important;
+    line-height: 30px;
+  }        
+  .vp-doc h2{
+    font-size: 16px!important;
+    margin: 20px 0px 16px;
+  }
+  .vp-doc h3{
+    font-size: 14px!important;
+  }
+  .vp-doc h4{
+    font-size: 12px!important;
+  }
+  pre{
+    font-size: 14px!important;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-feature-settings: normal!important;
+  }
+  td {
+    font-size: 12px!important;
+  }
+  .text,.custom-block p{
+    font-size: 13px!important;
+  }
+
+  .blockquote, blockquote,blockquote p{
+    font-size: 13px!important; 
+  }
+  .VPDocOutlineItem li a{
+    font-size: 12px!important; 
+  }
+
+  /* 移除zui框架的右箭头样式，保留默认的 */
+  .vpi-chevron-right, .caret-icon  {
+    display: none !important;
+  }
+  /* 移除zui框架的菜单背景色，保留默认的 */
+  .menu{
+    background: none !important;
+  }
+  /* 移除zui框架的提示背景色，保留默认的 */
+  .danger:hover{
+    border-color: var(--vp-custom-block-danger-border)!important;
+    color: var(--vp-custom-block-danger-text)!important;
+    background-color: var(--vp-custom-block-danger-bg)!important;
+  } 
+  .warning:hover{
+    border-color: var(--vp-custom-block-warning-border)!important;
+    color: var(--vp-custom-block-warning-text)!important;
+    background-color: var(--vp-custom-block-warning-bg)!important;
+  }
+  /* 移除zui框架的标题颜色，保留默认的 */
+ .title{
+    color: #000;
+  }
+
+  
+   */
+  /**
+   * Component: Button
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-button-brand-border: var(--vp-c-brand-soft);
+    --vp-button-brand-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-bg: var(--vp-c-brand-1);
+    --vp-button-brand-hover-border: var(--vp-c-brand-soft);
+    --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-soft);
+    --vp-button-brand-active-border: var(--vp-c-brand-soft);
+    --vp-button-brand-active-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  }
+  
+  /**
+   * Component: Home
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+      120deg,
+      #35495e -80%,
+      #41b883
+    );
+    --vp-home-hero-image-background-image: linear-gradient(
+      -45deg,
+      #41b88380 30%,
+      #35495e80
+    );
+    --vp-home-hero-image-filter: blur(30px);
+  }
+  
+  @media (min-width: 640px) {
+    :root {
+      --vp-home-hero-image-filter: blur(56px);
+    }
+  }
+  
+  @media (min-width: 960px) {
+    :root {
+      --vp-home-hero-image-filter: blur(72px);
+    }
+  }
+  
+  /**
+   * Component: Algolia
+   * -------------------------------------------------------------------------- */
+  
+  .DocSearch {
+    --docsearch-primary-color: var(--vp-c-brand) !important;
+  }
