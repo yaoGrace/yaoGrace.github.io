@@ -49,10 +49,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
-    // 在线编辑链接 
+    // 在线编辑链接   
     editLink: {
-      pattern: 'https://github.com/yaoGrace/yaograce.github.io/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
+      pattern: 'https://gitee.com/liukuaizhuan/yaograce.github.io/edit/master/docs/:path',
+      text: '在 gitee 上编辑此页面'
     },
     outlineTitle: '本页目录',
     lastUpdated: {
