@@ -23,7 +23,7 @@ jobs:  # 定义工作流程中的作业
       - name: Build  # 定义步骤的名称：构建
         run: BASE_PATH=/ npm run docs:build  # 运行命令来构建文档，设置基础路径为 /zui/3/
       - name: Deploy  # 定义步骤的名称：部署
-        uses: peaceiris/actions-gh-pages@v3  # 使用 peaceiris 的 gh-pages 动作来部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3  #  手动创建一个分支试试   gh-pages 动作来部署到 GitHub Pages
         with:  # 配置 gh-pages 动作
           github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌来授权操作
           publish_dir: docs/_/.vitepress/dist  # 指定要发布的目录
