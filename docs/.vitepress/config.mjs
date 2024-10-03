@@ -14,8 +14,8 @@ export default defineConfig({
     ['link',  { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }], //网站图标
     ['meta',  { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' } ],
     ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
-    ['link', {rel: 'stylesheet', href: `${base}zui/zui.css?v=${Date.now() % 10000}`}],
-    ['script', {src: `${base}zui/zui.js?v=${Date.now() % 10000}`}],
+    ['link', {rel: 'stylesheet', href: `///cdn.jsdelivr.net/npm/zui/dist/3.0.0/zui.css`}],
+    ['script', {src: `///cdn.jsdelivr.net/npm/zui/dist/3.0.0/zui.js`}],
   ],
   // 主题配置
   themeConfig: {
