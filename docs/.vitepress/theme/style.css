@@ -1,106 +1,168 @@
 /**
- * Custom style for zui
+ * Colors
  * -------------------------------------------------------------------------- */
- body {
-    @apply !-bg-canvas;
-  }
-  .Layout {
-    font-size: 1rem;
+
+ :root {
+    --vp-c-brand-1: #44bd87;
+    --vp-c-brand-2: #249252;
+    --vp-c-brand-3: #19633b;
+    --vp-c-brand-soft: #69e8af50;
+  
+    --vp-c-text-code: #528d52;
+  
+    --vp-code-block-bg: rgba(125, 125, 125, 0.04);
+    --vp-code-copy-code-bg: rgba(125, 125, 125, 0.1);
+    --vp-code-copy-code-hover-bg: rgba(125, 125, 125, 0.2);
+  
+    --vp-c-disabled-bg: rgba(125, 125, 125, 0.2);
+    /* fix contrast on gray cards: used by --vp-c-text-2 */
+    --vp-c-text-light-2: rgba(56 56 56 / 70%);
+    --vp-c-text-dark-2: rgba(56 56 56 / 70%);
+  
+    /* --vp-custom-block-info-bg: transparent; */
+    --vp-custom-block-tip-bg: transparent;
+  
+    --vp-custom-block-warning-bg: #d9a40605;
+    --vp-custom-block-warning-text: #d9a406;
+    --vp-custom-block-warning-border: #d9a40630;
+  
+    --vp-custom-block-tip-bg: #44bd8705;
+    --vp-custom-block-tip-text: #44bd87;
+    --vp-custom-block-tip-border: #44bd8730;
+  
+    --vp-code-color: #729772;
+ 
   }
   
-  .vp-doc h3:not(:where(.vp-raw, .vp-raw *)) {
-    @apply -mb-4;
-  }
-  .vp-doc h4:not(:where(.vp-raw, .vp-raw *)),
-  .vp-doc h5:not(:where(.vp-raw, .vp-raw *)),
-  .vp-doc h6:not(:where(.vp-raw, .vp-raw *)) {
-    @apply -my-3;
-  }
-  .vp-doc .example a:hover {
-    @apply -no-underline;
-  }
-  .VPDoc > .container {
-    @apply -min-w-0;
-  }
-  input:focus, textarea:focus, select:focus {
-    @apply -outline-1 -outline;
-  }
-  .vp-doc .vp-code {
-    max-height: 500px;
-    font-size: inherit;
-  }
-  .VPSidebar > .nav {
-    @apply -block;
-  }
-  .VPSidebarItem .caret {
-    @apply -border-none;
-  }
-  .VPSidebarItem .caret > .caret-icon {
-    @apply -hidden;
-  }
-  .VPNavBarMenu.menu {
-    @apply -shadow-none -border-none -bg-transparent;
+  .dark {
+    --vp-code-block-bg: var(--vp-c-bg-alt);
+    --vp-c-text-code: #c0cec0;
+    /* fix contrast on gray cards: check the same above (this is the default) */
+    --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
   }
   
-  .VPSidebarItem .text {
-    @apply -flex -flex-row -justify-between -items-center;
-  }
-  .VPSidebarItem .text > code {
-    @apply -text-sm -text-[--vp-c-text-2] -bg-[--vp-c-gutter] -rounded-full -py-0.5 -px-1 -leading-none;
-  }
-  .VPSidebarItem.is-active .text > code {
-    @apply -text-[--vp-c-brand] -bg-[--vp-c-brand-dim];
+  /**
+   * Component: Code
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-code-line-highlight-color: rgba(125, 125, 125, 0.2);
   }
   
-  button.DocSearch-Button {
-    @apply -bg-surface/50 -backdrop-blur;
+  .dark {
+    --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
+  }
+  /* 重写 */
+ .vp-doc h1{
+    font-size: 20px!important;
+    line-height: 30px;
+  }        
+  .vp-doc h2{
+    font-size: 16px!important;
+    margin: 20px 0px 16px;
+  }
+  .vp-doc h3{
+    font-size: 14px!important;
+  }
+  .vp-doc h4{
+    font-size: 12px!important;
+  }
+  pre{
+    font-size: 14px!important;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-feature-settings: normal!important;
+  }
+  td {
+    font-size: 12px!important;
+  }
+  .text,.custom-block p{
+    font-size: 13px!important;
+  }
+
+  .blockquote, blockquote,blockquote p{
+    font-size: 13px!important; 
+  }
+  .VPDocOutlineItem li a{
+    font-size: 12px!important; 
+  }
+
+  /* 移除zui框架的右箭头样式，保留默认的 */
+  .vpi-chevron-right, .caret-icon  {
+    display: none !important;
+  }
+  /* 移除zui框架的菜单背景色，保留默认的 */
+  .menu{
+    background: none !important;
+  }
+  /* 移除zui框架的提示背景色，保留默认的 */
+  .danger:hover{
+    border-color: var(--vp-custom-block-danger-border)!important;
+    color: var(--vp-custom-block-danger-text)!important;
+    background-color: var(--vp-custom-block-danger-bg)!important;
+  } 
+  .warning:hover{
+    border-color: var(--vp-custom-block-warning-border)!important;
+    color: var(--vp-custom-block-warning-text)!important;
+    background-color: var(--vp-custom-block-warning-bg)!important;
+  }
+  /* 移除zui框架的标题颜色，保留默认的 */
+ .title{
+    color: #000;
+  }
+
+  
+   */
+  /**
+   * Component: Button
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-button-brand-border: var(--vp-c-brand-soft);
+    --vp-button-brand-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-bg: var(--vp-c-brand-1);
+    --vp-button-brand-hover-border: var(--vp-c-brand-soft);
+    --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-soft);
+    --vp-button-brand-active-border: var(--vp-c-brand-soft);
+    --vp-button-brand-active-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
   }
   
-  .custom-block.warning {
-    @apply -ring-0;
-  }
-  .custom-block.warning:hover {
-    @apply -text-[--vp-custom-block-warning-text] -bg-[--vp-custom-block-warning-bg];
+  /**
+   * Component: Home
+   * -------------------------------------------------------------------------- */
+  
+  :root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+      120deg,
+      #35495e -80%,
+      #41b883
+    );
+    --vp-home-hero-image-background-image: linear-gradient(
+      -45deg,
+      #41b88380 30%,
+      #35495e80
+    );
+    --vp-home-hero-image-filter: blur(30px);
   }
   
-  .hover-scale {
-    @apply -transition-[transform] hover:-scale-105 hover:-z-10;
-  }
-  .hover-scale-shadow {
-    @apply -transition-[transform,box-shadow] hover:-scale-105 hover:-shadow-md hover:-z-10;
+  @media (min-width: 640px) {
+    :root {
+      --vp-home-hero-image-filter: blur(56px);
+    }
   }
   
   @media (min-width: 960px) {
-    .VPNavBar {
-      @apply -transition-colors;
-    }
-    .VPNavBar:not(.top,.has-sidebar) {
-      background: rgba(var(--color-canvas-rgb), .05)!important;
-      backdrop-filter: blur(10px)!important;
-    }
-    .VPNavBar:not(.top,.has-sidebar) .content-body {
-      background: none!important;
+    :root {
+      --vp-home-hero-image-filter: blur(72px);
     }
   }
   
-  .plugin-tabs {
-    @apply -ring-1 -ring-border -w-full -rounded -shadow -bg-transparent;
-  }
-  .plugin-tabs--content {
-    @apply !-p-0;
-  }
-  .plugin-tabs--content .example {
-    @apply -shadow-none -rounded-t-none;
-  }
-  .plugin-tabs--content div[class*='language-'] {
-    @apply !-rounded-t-none !-bg-[--vp-code-block-bg];
-  }
-  .plugin-tabs--tab-list {
-    @apply  -bg-surface;
-  }
-  .plugin-tabs--tab-list::after {
-    @apply -bg-border -h-px;
-  }
-  .plugin-tabs--tab {
-    @apply -h-10 -leading-10;
+  /**
+   * Component: Algolia
+   * -------------------------------------------------------------------------- */
+  
+  .DocSearch {
+    --docsearch-primary-color: var(--vp-c-brand) !important;
   }
