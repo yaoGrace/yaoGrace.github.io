@@ -1,7 +1,6 @@
  
 import DefaultTheme from "vitepress/theme";
-import './style.css';
- 
+import './style.css'; 
 // 导入tab插件 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client';
 
