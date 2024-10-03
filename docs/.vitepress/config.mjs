@@ -13,9 +13,10 @@ export default defineConfig({
     ['meta',  { name: 'keywords',  content: '一个资源站，平时用于收集学习记录的小破站！' } ] , //网站关键字
     ['link',  { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }], //网站图标
     ['meta',  { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' } ],
+    ['meta',{referrer: 'no-referrer'}], //禁止页面追踪
     ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
     ['link', {rel: 'stylesheet', href: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.css`}],
-    ['script', {src: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.js`}],
+    ['script', {src: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.js`}], 
   ],
   // 主题配置
   themeConfig: {
