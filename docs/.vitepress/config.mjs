@@ -13,7 +13,7 @@ export default defineConfig({
     ['meta',  { name: 'keywords',  content: '一个资源站，平时用于收集学习记录的小破站！' } ] , //网站关键字
     ['link',  { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }], //网站图标
     ['meta',  { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' } ],
-    ['meta',{referrer: 'no-referrer'}], //禁止页面追踪
+    ['meta',  {name:'referrer',content: 'no-referrer'}], //禁止页面追踪
     ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
     ['link', {rel: 'stylesheet', href: `https://cdn.jsdelivr.net/gh/yaoGrace/CdnStatics/FrontProject/zui/zui.css`}],//引入zuicss
     ['script', {src: `https://cdn.jsdelivr.net/gh/yaoGrace/CdnStatics/FrontProject/zui/zui.js`}], //引入zuijs
