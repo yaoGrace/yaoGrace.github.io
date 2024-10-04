@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: kouGrace框架
       link: /article/kouGrace/
+    - theme: alt
+      text: 中医自学
+      link: /article/zy/  
 
 features:
   - title: 高效快速
