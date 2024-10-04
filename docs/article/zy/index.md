@@ -2,7 +2,7 @@
 layout: page
 ---
 <style>
-    .grace-color-white{color:#FFF;}
+.grace-color-white{color:#FFF;}
 .grace-color-main{color:#2F4056;}
 .grace-color-green{color:#5FB878;}
 .grace-main{width:1200px; margin:0 auto;}
@@ -39,9 +39,29 @@ layout: page
 .grace-blocks a{display:block; overflow:hidden;}
 .grace-blocks a:hover{text-decoration:none;}
 img{border:none;}
-
 ul{list-style-type:none;}
 li{list-style:none; overflow:hidden;}
+@media screen and (max-width:800px){
+    .grace-main{width:100%; margin:0 auto;}
+.grace-banner{height:188px; background-size:auto auto;}
+	.grace-banner-samll{height:158px; background-size:auto auto;}
+	.grace-line-banner{background-size:auto; height:30px;}
+	.grace-header-line{height:44px;}
+	.grace-h1{font-size:24px;}
+	.grace-h2{font-size:20px;}
+	.grace-h3{font-size:18px;}
+	.grace-banner .grace-banner-top1{padding-top:48px;}
+	.grace-banner .grace-banner-top2{padding-top:8px;}
+	.grace-banner-samll .grace-banner-top1{padding-top:28px;}
+	.grace-banner-samll .grace-banner-top2{padding-top:8px;}
+	.grace-line-title span{font-size:18px;}
+	.grace-margin-top{margin-top:1px !important;}
+	.grace-blocks{padding:0px 12px;}
+	.grace-blocks li{width:98%; float:none; margin:12px 0px;}
+	.grace-block-title{font-size:16px; line-height:28px;}
+	.grace-block-title i{font-size:16px;}
+	.grace-block-text{text-indent:2em; line-height:1.8em; font-size:12px; color:#888; padding-bottom:8px;} 
+}
 </style>
 <meta name="referrer" content="no-referrer"/> 
 <div class="container-fuild">
