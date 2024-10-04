@@ -15,8 +15,8 @@ export default defineConfig({
     ['meta',  { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' } ],
     ['meta',{referrer: 'no-referrer'}], //禁止页面追踪
     ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
-    ['link', {rel: 'stylesheet', href: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.css`}],
-    ['script', {src: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.js`}], 
+    ['link', {rel: 'stylesheet', href: `https://cdn.jsdelivr.net/gh/yaoGrace/CdnStatics/FrontProject/zui/zui.css`}],//引入zuicss
+    ['script', {src: `https://cdn.jsdelivr.net/gh/yaoGrace/CdnStatics/FrontProject/zui/zui.js`}], //引入zuijs
   ],
   // 主题配置
   themeConfig: {

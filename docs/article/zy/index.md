@@ -19,36 +19,64 @@ layout: page
     <div class="grace-blocks" style="padding-top:10px;">
         <ul class="grace-main">
             <li>
-                <a href="/articel/zy/0lzjdq/01初识.md" target="_blank">
-                <div class="grace-blocks-img"> <img src="https://i2.hdslb.com/bfs/archive/cf4299e8cb4a74e8c9912f3f4ba2feb067f81f31.png@672w_378h_1c_!web-search-common-cover.avif"> </div>
+                <a href="https://www.bilibili.com/video/BV1Mz4y1i7ex/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/01zjdc.png"> </div>
                 <div class="grace-block-title2">01.针灸大成 </div>
                 </a>
             </li>  
             <li>
-                <a href="/articel/zy/02bcj/01初识.md" target="_blank">
-                <div class="grace-blocks-img"> <img src="https://i2.hdslb.com/bfs/archive/7c674f7dfaf53cc042b06227318c2be9c5c109bf.png@672w_378h_1c_!web-search-common-cover.avif"> </div>
+                <a href="https://www.bilibili.com/video/BV1Ch4y1M7hX/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/02snbcj.png"> </div>
                 <div class="grace-block-title2">02.神农本草经 </div>
                 </a>
             </li>  
             <li>
-                <a href="/articel/zy/03hdnj/01初识.md" target="_blank">
-                <div class="grace-blocks-img"> <img src="https://i1.hdslb.com/bfs/archive/173ca032e96dc3b7cd7dde217514f834c258660e.png@672w_378h_1c_!web-search-common-cover.avif"> </div>
+                <a href="https://www.bilibili.com/video/BV19u411Y7Zb/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/03hdnj.png"> </div>
                 <div class="grace-block-title2">03.黄帝内经 </div>
                 </a>
             </li> 
             <li>
-                <a href="/articel/zy/04shl/01初识.md" target="_blank">
-                <div class="grace-blocks-img"> <img src="https://i1.hdslb.com/bfs/archive/3f7ff7e09e275a0cee664f1e5ce9efd60b65fb77.jpg@672w_378h_1c_!web-search-common-cover.avif"> </div>
+                <a href="https://www.bilibili.com/video/BV1tu41157pD/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/04shl.jpg"> </div>
                 <div class="grace-block-title2">04.伤寒论 </div>
                 </a>
             </li> 
             <li>
+                <a href="https://www.bilibili.com/video/BV1aX4y1j7ex/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/05jkyl1.png"> </div>
+                <div class="grace-block-title2">05.金匮要略 - 1</div>
+                </a>
+            </li> 
+            <li>
+                <a href="https://www.bilibili.com/video/BV17Q4y187nZ/" target="_blank">
+                <div class="grace-blocks-img"> <img src="/zyImage/05jkyl2.png"> </div>
+                <div class="grace-block-title2">05.金匮要略 - 2 </div>
+                </a>
+            </li>
+            <li>
                 <a href="/articel/zy/04jkyl/01初识.md" target="_blank">
-                <div class="grace-blocks-img"> <img src="https://i0.hdslb.com/bfs/archive/dffa494eb12c599e3302f0612841f2e77d7e484a.jpg@672w_378h_1c_!web-search-common-cover.avif"> </div>
-                <div class="grace-block-title2">05.金匮要略 </div>
+                <div class="grace-blocks-img"> <img src="/zyImage/06ya.jpg"> </div>
+                <div class="grace-block-title2">06.医案 </div>
                 </a>
             </li> 
         </ul>
+    </div>
+    <div class="grace-line-title grace-main grace-margin-top ">
+        <span class="text-success font-mono font-semibold text-sm">中医自学《人纪- 倪海厦》系列课程</span>
+    </div>
+    <div class="grace-main ">
+        <div class="mt-6 grace-content mb-3" >
+            <div class="px-3 border rounded border-success bg-success bg-opacity-5 ">
+                百度网盘 <br>
+                链接:https://pan.baidu.com/s/151IvGvjyjWi1EcCOxmGnKg?pwd=6789 提取码:6789 <br> 
+                夸克网盘<br> 
+                链接：https://pan.quark.cn/s/bdb40191cf22<br>
+                提取码：DEhZ<br> 
+                腾讯微云<br>
+                链接：https://share.weiyun.com/ODmaGnNz 密码：123456    <br> 
+            </div>
+        </div>
     </div>
 </div> 
  
