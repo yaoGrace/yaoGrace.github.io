@@ -1,7 +1,14 @@
 /**
  * Colors
  * -------------------------------------------------------------------------- */
+ @import './vp-code.css';
+ .medium-zoom-overlay {
+  z-index: 30;
+}
 
+.medium-zoom-image {
+  z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
+}
  :root {
     --vp-c-brand-1: #44bd87;
     --vp-c-brand-2: #249252;
@@ -63,6 +70,10 @@
   }
   .vp-doc h3{
     font-size: 14px!important;
+  }
+  section h3{
+    font-weight: bold!important;
+    color: #000!important;
   }
   .vp-doc h4{
     font-size: 12px!important;

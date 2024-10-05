@@ -116,6 +116,23 @@ export default {
                         {text:"markdown基本语法",link:"/article/vitepress/markdownBase.md" },
                         {text:"如何访问github",link:"/article/vitepress/viewgithub.md" },
                     ]
+                },
+                {
+                  text:"介绍",
+                  collapsed: false,
+                  items:[
+                    {text:"前言",link:"/article/vitepress/01preface.md" },
+                    {text:"更新日志",link:"/article/vitepress/14update.md" },
+                  ]
+                },
+                {
+                  text:"基础篇",
+                  collapsed: false,
+                  items:[
+                    {text:"快速开始",link:"/article/vitepress/02getting-started.md" },
+                    {text:"配置",link:"/article/vitepress/03configuration.md" },
+                    {text:"页面",link:"/article/vitepress/04page.md" },
+                  ]
                 }
             ]
             
