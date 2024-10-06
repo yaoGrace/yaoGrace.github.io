@@ -1,8 +1,9 @@
  
 import DefaultTheme from "vitepress/theme";
-import './style.css';  
+import './style/index.css';  //所有自定义修改的CSS样式
 // 导入tab插件 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client';
+   
 // 下面三个是图片放大插件
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
@@ -19,7 +20,7 @@ export default {
     // siteData is a ref of current site-level metadata.
     enhanceAppWithTabs(app) ; //加载插件
     // 注册全局组件
-    app.component('xgplayer' , xgplayer)
+    app.component('xgplayer' , xgplayer); 
   },
 
   // 图片放大插件

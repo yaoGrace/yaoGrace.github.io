@@ -1,12 +1,8 @@
 /**
+ * 默认主题修改样式
  * Colors
  * -------------------------------------------------------------------------- */
- 
- @import './vp-code.css';
- @import './blockquote.css';
- @import './imagezoom.css';
- @import './custom-block.css';
- :root {
+:root {
     --vp-c-brand-1: #44bd87;
     --vp-c-brand-2: #249252;
     --vp-c-brand-3: #19633b;
@@ -120,9 +116,10 @@
  .title{
     color: #000;
   }
-
-  
-   */
+  .VPDocOutlineItem {
+    padding-left: 0px !important;
+  }
+   
   /**
    * Component: Button
    * -------------------------------------------------------------------------- */

@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import nav from './config/topNav';  // 导入导航配置
 import sidebar from './config/sidebar'; //导入侧边栏配置
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs' //导入Tab插件
+
 const base = process.env.BASE_PATH ?? '/';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -81,7 +82,8 @@ export default defineConfig({
     },
     //行号显示
     lineNumbers: true, //false关闭
-  }
+  },
+   
 })
 
  

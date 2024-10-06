@@ -1,3 +1,9 @@
+--- 
+password: secret123 
+--- 
+ 
+ 
+
 # 配置文件
 
 ::: danger 不同级别配置信息
