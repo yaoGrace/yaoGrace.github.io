@@ -1,0 +1,29 @@
+import{_ as a,c as i,a4 as n,o as p}from"./chunks/framework.C2dBoaCi.js";const c=JSON.parse('{"title":"框架目录结构","description":"","frontmatter":{},"headers":[],"relativePath":"article/kouGrace/01_menuandgroup.md","filePath":"article/kouGrace/01_menuandgroup.md","lastUpdated":1727788737000}'),l={name:"article/kouGrace/01_menuandgroup.md"};function h(e,s,t,k,r,d){return p(),i("div",null,s[0]||(s[0]=[n(`<h1 id="框架目录结构" tabindex="-1">框架目录结构 <a class="header-anchor" href="#框架目录结构" aria-label="Permalink to &quot;框架目录结构&quot;">​</a></h1><h2 id="目录结构" tabindex="-1">目录结构 <a class="header-anchor" href="#目录结构" aria-label="Permalink to &quot;目录结构&quot;">​</a></h2><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ app 应用目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ admin  后台分组</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ home   默认分组</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ install 安装分组</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ cacheDataFiles 缓存存放文件</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ Conf  系统级别配置目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ config.php  系统配置文件</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ kouGrace 框架目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ InfoTemplates 错误信息模板文件目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ models 模型文件目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ tools 工具类目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ commonFunction.php 公共函数库文件</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ kouGrace.php 框架核心文件</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    |_ kouGraceCreate.php 多应用自动创建模块函数</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ statics 静态文件目录</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ .htaccess 伪静态</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ favicon.ico 图标</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_ index.php 入口文件</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">|_  README.md 说明文件</span></span></code></pre></div><h2 id="分组说明" tabindex="-1">分组说明 <a class="header-anchor" href="#分组说明" aria-label="Permalink to &quot;分组说明&quot;">​</a></h2><div class="language-php vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">php</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">|</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">_</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> app</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    |</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">_</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> admin</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    |</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">_</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> api</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    |</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">_</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> home</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> </span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">默认是home分组</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">单应用</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">如果需要开启多应用</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">可以在入口文件</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> index</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">php</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 开启多应用</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 定义是否开启多应用模块 ,默认为 false - 单应用 , true - 多应用</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 优先定义,定义后就不要再更改了 </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> KG_MULTI_MODULE</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> true</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre></div>`,5)]))}const o=a(l,[["render",h]]);export{c as __pageData,o as default};

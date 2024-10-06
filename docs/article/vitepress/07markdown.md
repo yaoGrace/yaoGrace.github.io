@@ -147,13 +147,13 @@ export default defineConfig({
 内部链接引用，输入：
 
 ```md
-[点我跳转：Frontmatter文章中的大纲](./frontmatter.md#大纲)
+[点我跳转：Frontmatter文章中的大纲](./05frontmatter.md#大纲)
 ```
 
 
 输出：
 
-[点我跳转：Frontmatter文章中的大纲](./frontmatter.md#大纲)
+[点我跳转：Frontmatter文章中的大纲](./05frontmatter.md#大纲)
 
 
 外部链接引用，输入：
@@ -185,7 +185,7 @@ export default defineConfig({
 
 输出：
 
-<video src="/lol.mp4" controls="controls"></video>
+<video src="https://s3.ananas.chaoxing.com/video/3d/db/76/1ed3004cdb1eb84f9847e346decdb4ec/sd.mp4" controls="controls"></video>
 
 
 那在线视频呢，我们可以用 `<iframe>` 标签实现
@@ -390,7 +390,7 @@ Hello, VitePress!
 
 > 为什么和我不一样？
 >
-> 我对样式进行了修改，请查看 [样式美化 - 容器颜色](./style.md#容器颜色)
+> 我对样式进行了修改，请查看 [样式美化 - 容器颜色](./10style.md#容器颜色)
 
 
 ::: details 不喜欢添加在后面，可以直接在配置中自定义标题
@@ -583,7 +583,7 @@ var的值都改程颜色代码即可
 ````
 
 ::: tip 为什么我的有小圆点
-因为我对 [代码块样式](./style.md#代码块) 进行了美化，可以按需配置
+因为我对 [代码块样式](./10style.md#代码块) 进行了美化，可以按需配置
 :::
 
 
@@ -920,7 +920,7 @@ yarn -v
 输出：
 
 ::: tip 为什么我的有小圆点
-因为我对 [代码组样式](./style.md#代码组) 进行了美化，可以按需配置
+因为我对 [代码组样式](./10style.md#代码组) 进行了美化，可以按需配置
 :::
 
 
@@ -1100,7 +1100,7 @@ const members = [
 要创建团队页面，首先创建一个新的 `md` 文件。 文件名并不重要，但这里我们将其命名为 `team.md`
 :::
 
-在此文件中，设置 [frontmatter](./frontmatter.md#首页) 选项 `layout: page`，然后使用 TeamPage 组件构建页面结构
+在此文件中，设置 [frontmatter](./05frontmatter.md#首页) 选项 `layout: page`，然后使用 TeamPage 组件构建页面结构
 
 
 输入：
@@ -1161,7 +1161,7 @@ const members = [
 :::
 
 
-[点我查看：团队成员信息](./team.md)
+[点我查看：团队成员信息](./08team.md)
 
 
 ### 合作伙伴
@@ -1246,7 +1246,7 @@ const partners = [
 
 输出：
 
-[点我查看：团队成员信息](./team.md)
+[点我查看：团队成员信息](./08team.md)
 
 
 ### 组件显示成员

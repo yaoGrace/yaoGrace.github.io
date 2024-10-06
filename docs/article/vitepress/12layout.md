@@ -6,7 +6,7 @@
 
 Vitepress基于Vue3用到了 `<slot>` 插槽，在 `<Layout/>` 布局组件中预留了一些插槽，可以对页面布局进行自定义修改
 
-由于也是使用组件，请了解过 [组件的使用](./components.md) 了再来看
+由于也是使用组件，请了解过 [组件的使用](./11components.md) 了再来看
 
 ::: tip 插槽与组件的区别
 * 插槽：有固定的孔位，适用于需要频繁显示的内容，比如：广告
@@ -185,7 +185,7 @@ export default {
 
 ### doc
 
-当 [Frontmatter](./frontmatter.md) 配置 `layout: doc` (默认)时插槽及位置
+当 [Frontmatter](./05frontmatter.md) 配置 `layout: doc` (默认)时插槽及位置
 
 * doc-top
 * doc-bottom
@@ -207,7 +207,7 @@ export default {
 * aside-ads-after
 
 
-![](/layout/layout-doc.png)
+![](https://p.ananas.chaoxing.com/star3/origin/7eafb57b798740d8a399b7aeefc3ad1c.png)
 
 
 ---
@@ -215,7 +215,7 @@ export default {
 
 ### home
 
-当 [Frontmatter](./frontmatter.md) 配置 `layout: home` (默认)时插槽及位置
+当 [Frontmatter](./05frontmatter.md) 配置 `layout: home` (默认)时插槽及位置
 
 * home-hero-before
 * home-hero-info
@@ -225,19 +225,19 @@ export default {
 * home-features-after
 
 
-![](/layout/layout-home.png)
+![](https://p.ananas.chaoxing.com/star3/origin/cd685105ccc11fd33125d72fae8d1aaf.png)
 
 
 ---
 
 ### page
 
-当 [Frontmatter](./frontmatter.md) 配置 `layout: page` (默认)时插槽及位置
+当 [Frontmatter](./05frontmatter.md) 配置 `layout: page` (默认)时插槽及位置
 
 * page-top
 * page-bottom
 
-![](/layout/layout-page.png)
+![](https://p.ananas.chaoxing.com/star3/origin/054ebe764da309def9560f71a0dffd3e.png)
 
 
 ---
@@ -248,7 +248,7 @@ export default {
 
 * not-found
 
-![](/layout/layout-404.png)
+![](https://p.ananas.chaoxing.com/star3/origin/dc8d9058884cec5feaefeb936812348f.png)
 
 ---
 
@@ -270,7 +270,7 @@ export default {
 * nav-screen-content-after
 
 
-![](/layout/layout-nav.png)
+![](https://p.ananas.chaoxing.com/star3/origin/77c83f6efce57ebaa9461797d94468b3.png)
 
 
 ## 使用演示
@@ -369,7 +369,7 @@ date: 2023-12-19 08:09
 
 查看效果
  
-![](/layout/layout-demo-01.png)
+![](https://p.ananas.chaoxing.com/star3/origin/5b99566e39c845a809103ec63c592ca6.png)
 
 
 
@@ -382,7 +382,7 @@ date: 2023-12-19 08:09
 这里我们参考 [Vite官网](https://vitejs.cn/vite3-cn/) 下的赞助，代码在 [仓库](https://github.com/vitejs/vite) 查找
 
 
-![](/layout/layout-vite.png)
+![](https://p.ananas.chaoxing.com/star3/origin/57f2d90988a40c7fce6ed2151f154599.png)
 
 在 `untils` 目录新建一个 `sponsors.ts` 文件
 
@@ -651,7 +651,7 @@ export default {
 
 ### 不蒜子
 
-使用前请安装 [浏览量的插件：不蒜子](./plugin.md#浏览量) ，想好看自己研究一下吧
+使用前请安装 [浏览量的插件：不蒜子](./13plugin.md#浏览量) ，想好看自己研究一下吧
 
 现在仅做一个简单的封装示例，新建一个 `bsz.vue` 组件
 

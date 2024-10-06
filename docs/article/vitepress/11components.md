@@ -379,7 +379,7 @@ export default {
 
 ### 视频播放
 
-之前我们用 `<video>` 标签实现了 [视频播放](./markdown.md#视频)，但是没有封面也没有倍数
+之前我们用 `<video>` 标签实现了 [视频播放](./07markdown.md#视频)，但是没有封面也没有倍数
 
 我们安装 [西瓜播放器](https://h5player.bytedance.com/guide/) 并封装成vue组件达到目的
 
@@ -516,7 +516,7 @@ export default {
 
 ### 不蒜子
 
-使用前请安装 [浏览量的插件：不蒜子](./plugin.md#浏览量) ，想好看自己研究一下吧
+使用前请安装 [浏览量的插件：不蒜子](./13plugin.md#浏览量) ，想好看自己研究一下吧
 
 现在仅做一个简单的封装示例，在 `theme/components` 文件夹中创建 `DataPanel.vue` 组件
 
@@ -867,7 +867,7 @@ export default {
 最后回到首页或者其他页面，插入组件即可
 
 ::: details 为什么不用插槽
-目前位置最佳的 [插槽](./layout.md#插槽表) 是 `doc-before`
+目前位置最佳的 [插槽](./12layout.md#插槽表) 是 `doc-before`
 
 但是在标题上方，不是太喜欢，所以选择组件，你也可以自己找
 
@@ -1046,9 +1046,9 @@ export default {
 将其写在 H1标题 下即可，参照官网 [Markdown的高级配置](https://vitepress.dev/zh/guide/markdown#advanced-configuration) 在 `config.mts` 中配置
 
 ::: info 说明
-如果你觉得组件在 H1标题 之上的位置，才是最合适的，建议使用 [doc-before 插槽](./layout.md#doc) 位置
+如果你觉得组件在 H1标题 之上的位置，才是最合适的，建议使用 [doc-before 插槽](./12layout.md#doc) 位置
 
-不要像上方一样使用 `enhanceApp` 方式注册组件，请参考 [h函数的配置](./layout.md#示例2-h函数) 使用
+不要像上方一样使用 `enhanceApp` 方式注册组件，请参考 [h函数的配置](./12layout.md#示例2-h函数) 使用
 :::
 
 ```ts{8-15}

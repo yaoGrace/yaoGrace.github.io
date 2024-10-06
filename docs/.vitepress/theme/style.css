@@ -3,12 +3,12 @@
  * -------------------------------------------------------------------------- */
  @import './vp-code.css';
  .medium-zoom-overlay {
-  z-index: 30;
-}
+    z-index: 30;
+  }
 
-.medium-zoom-image {
-  z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
-}
+  .medium-zoom-image {
+    z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
+  }
  :root {
     --vp-c-brand-1: #44bd87;
     --vp-c-brand-2: #249252;

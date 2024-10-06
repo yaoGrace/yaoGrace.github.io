@@ -179,7 +179,7 @@ o  Add VitePress npm scripts to package.json?
 ```
 
 ::: tip Vue 作为对等依赖
-如果您打算使用 Vue 组件或 API 进行自定义，您还应该显式 [安装 Vue](./components.md#安装) 作为对等依赖项
+如果您打算使用 Vue 组件或 API 进行自定义，您还应该显式 [安装 Vue](./11components.md#安装) 作为对等依赖项
 
 如果你不懂，我们先暂时不看，我们后面会详细说
 :::

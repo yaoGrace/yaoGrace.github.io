@@ -61,7 +61,7 @@ export default defineConfig({
 ::: warning 注意
 如果你使用路径 `/logo.png` 无反应，可尝试先用相对路径 `../public/logo.png`
 
-另：如果你的 [Base 设置非根目录](./assets.md#base)，fav图标路径也要做出改变
+另：如果你的 [Base 设置非根目录](./09assets.md#base)，fav图标路径也要做出改变
 :::
 
 
@@ -909,7 +909,7 @@ new Crawler({
 
 ## 首页
 
-我们使用 [Frontmatter](./frontmatter.md) ，在 `index.md` 中进行配置和修改
+我们使用 [Frontmatter](./05frontmatter.md) ，在 `index.md` 中进行配置和修改
 
 
 
@@ -1164,7 +1164,7 @@ export default defineConfig({
 ## 编辑本页
 
 ::: warning 注意
-会被 [Frontmatter配置](./frontmatter.md#编辑本页) 覆盖
+会被 [Frontmatter配置](./05frontmatter.md#编辑本页) 覆盖
 :::
 
 ```ts{4-8}
@@ -1229,7 +1229,7 @@ export default defineConfig({
 
 ## 上/下页
 
-默认从侧边栏配置中读取，如果想单独关闭或自定义请参照 [Frontmatter](./frontmatter.md#上-下页)
+默认从侧边栏配置中读取，如果想单独关闭或自定义请参照 [Frontmatter](./05frontmatter.md#上-下页)
 
 ::: tip 说明
 仅修改显示的文字

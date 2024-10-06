@@ -222,7 +222,7 @@ export default {
 有个小bug，每次修改完需要刷新才能起效，不过不影响使用
 :::
 
-![](/img_test.jpg)
+![](https://p.ananas.chaoxing.com/star3/origin/c66cb1dce5bb2a795605592cefe29071.png)
 
 
 
@@ -374,9 +374,9 @@ export default {
 
 ::: info 封装演示
 
-* 仅首页显示：[组件使用示例](./components.md#不蒜子)
+* 仅首页显示：[组件使用示例](./11components.md#不蒜子)
 
-* 所有页面底部：[插槽使用示例](./layout.md#不蒜子)
+* 所有页面底部：[插槽使用示例](./12layout.md#不蒜子)
 :::
 
 
@@ -472,7 +472,7 @@ stackblitz演示：https://stackblitz.com/edit/vite-y1rga7
 >
 > 注意：插件在读取目录之后，你再修改文件名，需要重启才能生效
 
-![](/sidebar.png)
+![](https://p.ananas.chaoxing.com/star3/origin/419b4720c6e590e3a8c2b40193efbbb6.png)
 
 
 
@@ -518,7 +518,7 @@ commonjs：简称CJS，`module.exports` `exports` 导出，`require` 导入
 
 ES module：简称ESM，`export` 导出，`import` 导入
 
-这个我们在最开始 [Vitepress前言](./preface.md#官方) 的时候也提到过
+这个我们在最开始 [Vitepress前言](./01preface.md#官方) 的时候也提到过
 :::
 
 ```ts{2,5-16}
@@ -835,7 +835,7 @@ Giscus 是一个基于 GitHub Discussion 的评论系统，启用简便
 点击 `Install` 安装
 
 
-![](/giscus/giscus-01.png)
+![](https://p.ananas.chaoxing.com/star3/origin/af143fc5e24381abdedfcbb354b804e6.png)
 
 
 
@@ -847,7 +847,7 @@ Giscus 是一个基于 GitHub Discussion 的评论系统，启用简便
 想单独放评论，新建一个也可
 :::
 
-![](/giscus/giscus-02.png)
+![](https://p.ananas.chaoxing.com/star3/origin/622f4843d156511dba5a2e61d891f184.png)
 
 ::: tip 查看
 完成后可以在个人头像-设置-应用 `Applications` 中看到
@@ -861,7 +861,7 @@ Giscus 是一个基于 GitHub Discussion 的评论系统，启用简便
 
 我们进入要开启讨论的仓库，点设置 - 勾选讨论 `Settings - discussions`
 
-![](/giscus/giscus-03.png)
+![](https://p.ananas.chaoxing.com/star3/origin/15dd107e9e29c35d26421493db90ad12.png)
 
 
 ### 生成数据
@@ -870,16 +870,16 @@ Giscus 是一个基于 GitHub Discussion 的评论系统，启用简便
 
 输入自己的仓库链接，满足条件会提示可用
 
-![](/giscus/giscus-04.png)
+![](https://p.ananas.chaoxing.com/star3/origin/5a50ee925260cf1db7f506063e77d3d9.png)
 
 下拉到 Discussion 分类我们按推荐的选 `Announcements` ，懒加载评论也可以勾选下
 
-![](/giscus/giscus-05.png)
+![](https://p.ananas.chaoxing.com/star3/origin/557aea3eb70c3c538f4863c1cfb8878e.png)
 
 
 下方就自动生成了你的关键数据
 
-![](/giscus/giscus-06.png)
+![](https://p.ananas.chaoxing.com/star3/origin/a398c25905112049332601a001e28314.png)
 
 
 其中 `data-repo` 、 `data-repo-id` 、 `data-category` 和 `data-category-id` 这4个是我们的关键数据
