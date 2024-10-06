@@ -67,6 +67,8 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-PRESENT liukuaizhuan@qq.com '
     },
+    //返回顶部文字修改
+    returnToTopLabel:'返回顶部', 
   },
   // markdown 插件tab 增强
   markdown: {

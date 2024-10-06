@@ -2,6 +2,7 @@
  * Colors
  * -------------------------------------------------------------------------- */
  @import './vp-code.css';
+ @import './blockquote.css';
  .medium-zoom-overlay {
     z-index: 30;
   }
@@ -90,9 +91,9 @@
     font-size: 13px!important;
   }
 
-  .blockquote, blockquote,blockquote p{
+  /* .blockquote, blockquote,blockquote p{
     font-size: 13px!important; 
-  }
+  } */
   .VPDocOutlineItem li a{
     font-size: 12px!important; 
   }
