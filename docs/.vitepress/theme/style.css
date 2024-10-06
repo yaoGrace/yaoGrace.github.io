@@ -90,6 +90,9 @@
   /* .blockquote, blockquote,blockquote p{
     font-size: 13px!important; 
   } */
+  .VPDocOutlineItem li {
+    list-style: disc!important;
+  }
   .VPDocOutlineItem li a{
     font-size: 12px!important; 
   }
