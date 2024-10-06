@@ -30,11 +30,11 @@
 
 ## 常用配置类常量
 ::: danger  这些是会常用的常量
-    1、KG_MULTI_MODULE  多应用模块 这个需要在项目立项的时候就考虑好是哪种      
-    2、KG_SUFFIX 伪静态后缀名也配置好   
-    3、KG_VIEW_TYPE  视图类型 使使用文件型还是目录型，也要先考虑好，不然后期写视图层会很麻烦   
-    4、 KG_POST_FILTER 这个是全局的过滤。   
-    如果只是在控制器里面过滤，可以在控制器里面 写 $this->postFilter = false/true;
+1、KG_MULTI_MODULE  多应用模块 这个需要在项目立项的时候就考虑好是哪种      
+2、KG_SUFFIX 伪静态后缀名也配置好   
+3、KG_VIEW_TYPE  视图类型 使使用文件型还是目录型，也要先考虑好，不然后期写视图层会很麻烦   
+4、 KG_POST_FILTER 这个是全局的过滤。   
+如果只是在控制器里面过滤，可以在控制器里面 写 $this->postFilter = false/true;
 :::
 | 常量名称 | 默认值 | 功能描述 |
 | --- | --- | --- |

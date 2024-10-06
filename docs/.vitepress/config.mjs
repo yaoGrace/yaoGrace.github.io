@@ -74,7 +74,13 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
-    }
+    },
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
+    //行号显示
+    lineNumbers: true, //false关闭
   }
 })
 

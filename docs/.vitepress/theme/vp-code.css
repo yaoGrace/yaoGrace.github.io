@@ -1,11 +1,11 @@
- 
+/* .vitepress/theme/style/vp-code.css 代码样式美化 */
 
 /* 无行号 添加背景阴影 */
 .vp-doc div[class*=language-] {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
   z-index: 1;
 }
 
@@ -29,7 +29,7 @@ div[class*="language-"].vp-adaptive-theme.line-numbers-mode {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
 }
 
 

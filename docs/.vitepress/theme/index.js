@@ -1,6 +1,6 @@
  
 import DefaultTheme from "vitepress/theme";
-import './style.css'; 
+import './style.css';  
 // 导入tab插件 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client';
 // 下面三个是图片放大插件

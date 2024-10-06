@@ -1,15 +1,11 @@
 /**
  * Colors
  * -------------------------------------------------------------------------- */
+ 
  @import './vp-code.css';
  @import './blockquote.css';
- .medium-zoom-overlay {
-    z-index: 30;
-  }
-
-  .medium-zoom-image {
-    z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
-  }
+ @import './imagezoom.css';
+ @import './custom-block.css';
  :root {
     --vp-c-brand-1: #44bd87;
     --vp-c-brand-2: #249252;
@@ -28,7 +24,7 @@
     --vp-c-text-dark-2: rgba(56 56 56 / 70%);
   
     /* --vp-custom-block-info-bg: transparent; */
-    --vp-custom-block-tip-bg: transparent;
+    /* --vp-custom-block-tip-bg: transparent;
   
     --vp-custom-block-warning-bg: #d9a40605;
     --vp-custom-block-warning-text: #d9a406;
@@ -37,7 +33,7 @@
     --vp-custom-block-tip-bg: #44bd8705;
     --vp-custom-block-tip-text: #44bd87;
     --vp-custom-block-tip-border: #44bd8730;
-  
+   */
     --vp-code-color: #729772;
  
   }
@@ -73,8 +69,8 @@
     font-size: 14px!important;
   }
   section h3{
-    font-weight: bold!important;
-    color: #000!important;
+    /* font-weight: bold!important; */
+    color: #1E293B!important;
   }
   .vp-doc h4{
     font-size: 12px!important;
@@ -108,12 +104,12 @@
   }
   /* 移除zui框架的提示背景色，保留默认的 */
   .danger:hover{
-    border-color: var(--vp-custom-block-danger-border)!important;
+    /* border-color: var(--vp-custom-block-danger-border)!important; */
     color: var(--vp-custom-block-danger-text)!important;
     background-color: var(--vp-custom-block-danger-bg)!important;
   } 
   .warning:hover{
-    border-color: var(--vp-custom-block-warning-border)!important;
+    /* border-color: var(--vp-custom-block-warning-border)!important; */
     color: var(--vp-custom-block-warning-text)!important;
     background-color: var(--vp-custom-block-warning-bg)!important;
   }
