@@ -36,3 +36,6 @@ const KG_TRACE = false;
 
 **错误展示**  
 kouGrace 重构了 php 的错误展示，以较为清晰的方式来展示代码错误及异常；
+
+--加载视频 --
+<xgplayer url="https://s3.ananas.chaoxing.com/video/a8/3a/a8/8657d9ed21ca0d56ff5aee80ae127246/sd.mp4" poster="https://p.ananas.chaoxing.com/star3/origin/8e84a7259a8e85b59b406f9543043417.jpg" />

@@ -7,6 +7,8 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client';
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
+// 加载西瓜视频播放器组件
+import xgplayer from "./components/xgplayer.vue"
 
 export default {
   ...DefaultTheme,
@@ -16,6 +18,8 @@ export default {
     // router is VitePress' custom router (see `lib/app/router.js`)
     // siteData is a ref of current site-level metadata.
     enhanceAppWithTabs(app) ; //加载插件
+    // 注册全局组件
+    app.component('xgplayer' , xgplayer)
   },
 
   // 图片放大插件

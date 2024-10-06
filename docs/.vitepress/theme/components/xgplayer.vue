@@ -28,7 +28,7 @@
       fluid: true,  // 流式布局，自动宽高比
       controls: true, //开启控制栏，设为false即隐藏
       leavePlayerTime: 0, //鼠标离开控制栏隐藏延时时间，默认3000ms
-      download: true, //开启下载
+      download: false, //开启下载-true,关闭下载 - false
       keyShortcut: true, //开启热键
   
       url: props.url, //传入的url
