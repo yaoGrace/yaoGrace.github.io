@@ -11,6 +11,7 @@ export default {
                 collapsed: true, //是否可折叠
                 items:[ 
                   { text:"环境需求",link:"/article/kouGrace/01_huanjing.md" },
+                  { text:"源码下载",link:"/article/kouGrace/01_down.md" },
                   { text:"目录·分组",link:"/article/kouGrace/01_menuandgroup.md" },
                   { text:"运行·调试",link:"/article/kouGrace/01_yunxingdebug.md" },
                   { text:"内置常量",link:"/article/kouGrace/01_const.md" },

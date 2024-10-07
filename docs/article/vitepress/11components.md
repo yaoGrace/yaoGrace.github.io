@@ -506,7 +506,7 @@ export default {
 
 更多的功能，可以自己在 [西瓜播放器的配置](https://h5player.bytedance.com/config/) 中寻找
 
-<xgplayer url="/lol.mp4" poster="/lol.png" />
+<xgplayer url="https://s3.ananas.chaoxing.com/video/45/f7/23/2f34b1e6fc6e385a1fdbf371c9997d6e/sd.mp4" poster="https://p.ananas.chaoxing.com/star3/origin/de6906853c2d0f660c3268cb6f86c202.jpg" />
 
 
 

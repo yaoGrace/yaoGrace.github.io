@@ -53,10 +53,29 @@ return array(
 ```
 
 
-## 应用模块级配置文件
+## 模块级配置文件
 
+> 模块级的配置文件，在 `./App/` 目录下，   
+> 对应的应用模块内为 `config/配置文件名.php`   
+> 使用 mc("模块名","配置文件名","key1","key2");
+
+### 配置文件示例
 ```php
+
+# 将下面的代码 保存为 ./App/home/config/mysql.php 
+
 <?php 
-return array( );
+return array(
+    "db"=>[
+        "databaseType"=>"mysql",
+    ] 
+ );
 
 ```
+
+### 调用
+
+```php
+    $dbConfig = mc("home","mysql","db","databaseType");
+```
+

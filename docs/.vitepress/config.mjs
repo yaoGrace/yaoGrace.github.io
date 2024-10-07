@@ -21,10 +21,10 @@ export default defineConfig({
   ],
   // 主题配置
   themeConfig: {
-    logo: '/logo.png',  
-    nav: nav, 
-    sidebar: sidebar,
-    outline: [2, 3],
+    logo: '/logo.png',   //logo
+    nav: nav,  // 导航栏配置
+    sidebar: sidebar, //侧边栏配置
+    outline: [2, 4], //右侧的大纲，显示2-4级标题
     // 搜索框配置
     search: {
         provider: 'local',
@@ -82,8 +82,7 @@ export default defineConfig({
     },
     //行号显示
     lineNumbers: true, //false关闭
-  },
-   
+  } 
 })
 
  

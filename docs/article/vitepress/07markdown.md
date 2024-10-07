@@ -728,14 +728,14 @@ export default defineConfig({
 在某一行后添加 `// [!code focus]` 注释会聚焦该行，并模糊代码的其他部分
 
 
-输入：
+输入：输入演示代码里面 // [!!code focus]  这个需要去掉一个!
 
 ````
 ```ts{4}
 export default defineConfig({
   lang: 'zh-CN',
   title: "VitePress",
-  description: "我的vitpress文档教程", // [!!code focus]
+  description: "我的vitpress文档教程", // [!!code focus] 
   titleTemplate: '另起标题覆盖title' ,
 })
 ```
