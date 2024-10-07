@@ -31,7 +31,7 @@
     --vp-custom-block-tip-border: #44bd8730;
    */
     --vp-code-color: #729772;
- 
+    --custom-overflow: visible;
   }
   
   .dark {
@@ -88,7 +88,7 @@
   } */
   .VPDocOutlineItem li {
     list-style: disc!important;
-    overflow: none!important;
+    overflow: var(--custom-overflow)!important;
   }
   .VPDocOutlineItem li a{
     font-size: 12px!important; 
