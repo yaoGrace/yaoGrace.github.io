@@ -16,7 +16,7 @@ export default [
     {
       text: "中医领域",
       items: [
-        { text: "中医课程-倪海厦", link: "/article/zy/index.md" }, 
+        { text: "中医课程-倪海厦", link: "/article/中医/index.md" }, 
       ],
       
     },
