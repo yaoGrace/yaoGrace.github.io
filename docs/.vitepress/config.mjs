@@ -18,7 +18,8 @@ export default defineConfig({
     ['link',  { rel: 'icon', href: '/logo.png' }], //网站显示icon图标 
     ['link', {rel: 'stylesheet', href: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.css`}],//引入zuicss
     ['script', {src: `///cdn.bootcdn.net/ajax/libs/zui/3.0.0/zui.js`}], //引入zuijs
-  ],
+   
+  ], 
   // 主题配置
   themeConfig: {
     logo: '/logo.png',   //logo
