@@ -17,7 +17,7 @@ hero:
       link: /article/kouGrace/
     - theme: alt
       text: 中医自学
-      link: /article/zy/  
+      link: /article/中医/  
 
 features:
   - title: 高效快速
