@@ -20,7 +20,7 @@
   onMounted(() => {
     new Player({
       id: 'mse', //占位id
-      volume: 0, // 默认静音
+      volume: 0.6, // 默认60%声音
       lang: "zh", //设置中文
   
       autoplay: false, //关闭自动播放
@@ -30,13 +30,15 @@
       leavePlayerTime: 0, //鼠标离开控制栏隐藏延时时间，默认3000ms
       download: false, //开启下载-true,关闭下载 - false
       keyShortcut: true, //开启热键
-  
+      pip: true,//是否支持画中画
       url: props.url, //传入的url
       poster: props.poster, //传入的视频封面
-  
+      airplay: true, // 支持ios设备投屏
+
       start: {
         isShowPause: true //暂停显示播放按钮
       }
+      
   
     })
   
