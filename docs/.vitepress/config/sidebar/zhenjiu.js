@@ -6,7 +6,7 @@ export default   [
         items: [
             { text: '01. 针灸的使用时机与禁忌',  link: ZhenJiuBasePath+'01.md' },
             { text: '02. 针灸的急救法,穴位丈量方法等',  link: ZhenJiuBasePath+'02.md' },
-            { text: '03. 针灸的常用穴位',  link: ZhenJiuBasePath+'03.md' },
+            { text: '03. 入穴方式·针号·天干地支等',  link: ZhenJiuBasePath+'03.md' },
             { text: '04. xx',  link: ZhenJiuBasePath+'04.md' }, 
             { text: '05. xx',  link: ZhenJiuBasePath+'05.md' },
             { text: '06. xx',  link: ZhenJiuBasePath+'06.md' },
