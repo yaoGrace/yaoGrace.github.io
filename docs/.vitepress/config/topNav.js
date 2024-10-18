@@ -9,7 +9,7 @@ export default [
       ],
     }, 
     {
-      text: "学习领域",
+      text: "工具箱",
       items: [ 
         { text: "🎯vitepress手册", link: "/article/vitepress/" },  
         { text: "🎯常用软件", link: "/article/tools/" },  
