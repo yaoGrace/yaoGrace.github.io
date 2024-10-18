@@ -13,8 +13,8 @@ hero:
       text: 主页
       link: /
     - theme: alt
-      text: kouGrace框架
-      link: /article/kouGrace/
+      text: 我写的网站
+      link: http://zhongyi.666443.xyz/
     - theme: alt
       text: 中医自学
       link: /article/中医/  
