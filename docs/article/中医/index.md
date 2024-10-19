@@ -66,7 +66,7 @@ li{list-style:none; overflow:hidden;}
 </style>
 <meta name="referrer" content="no-referrer"/> 
 <div class="container-fuild">
-    <div class="grace-banner" style="background-image:url(/kouGraceImage/bander.png);">
+    <div class="grace-banner" style="background-image:url(/kouGraceImage/bander.jpg);">
         <div class="grace-h1 grace-text-center grace-color-white grace-banner-top1">
             中医自学课程 -  倪海厦人纪课程<div class="avatar size-xl circle"><img src="https://p2.itc.cn/q_70/images03/20220916/33b7e3a6ee794267bef88f55fad17cd5.png"></div> 
         </div> 

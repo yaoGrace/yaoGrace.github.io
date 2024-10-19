@@ -66,7 +66,7 @@ li{list-style:none; overflow:hidden;}
 </style>
 <meta name="referrer" content="no-referrer"/> 
 <div class="container-fuild"> 
-    <div class="grace-banner" style="background-image:url(/kouGraceImage/bander.png);">
+    <div class="grace-banner" style="background-image:url(/kouGraceImage/bander.jpg);">
             <div class="grace-h1 grace-text-center grace-color-white grace-banner-top1">
                 常用软件库
             </div> 
