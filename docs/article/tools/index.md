@@ -29,7 +29,7 @@ layout: page
 .grace-blocks li{width:27.2%; float:left; background:#FAFAFA; margin:10px 1%; padding:8px 2%;}
 .grace-block-title{font-size:18px; line-height:35px; text-align:center; margin-top:6px; color:#525252;}
 .grace-block-title i{margin-right:10px; font-size:20px; color:#525252;}
-.grace-block-title2{font-size:15px; line-height:1.6em; text-align:center; margin-top:5px; color:#525252;}
+.grace-block-title2{font-size:15px; line-height:1.6em; text-align:center; margin-top:5px; color:#525252;overflow:hidden;}
 .grace-block-text{line-height:2.2em; padding:5px 0; color:#888; padding-bottom:8px;}
 .grace-blocks-img{width:100%;}
 .grace-blocks-img img{width:100%;height:60px;}
@@ -94,6 +94,14 @@ li{list-style:none; overflow:hidden;}
                         <img src="https://cdn.jsdelivr.net/gh/yaoGrace/imgCdn@main/CDN/github.75i0bvsg09w0.jpg" />
                     </div>
                     <div class="grace-block-title2">github-picx图床</div>
+                </a>
+            </li>
+            <li>
+                <a href="/article/tools/FastStoneCapture截图软件">
+                    <div class="grace-blocks-img">
+                        <img src="https://p.cldisk.com/star3/origin/103573df229911aaefab7e684596d29b.png" />
+                    </div>
+                    <div class="grace-block-title2">FSCapture v10.7 中文破解绿色便携版</div>
                 </a>
             </li>
         </ul>
