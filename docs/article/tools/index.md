@@ -32,7 +32,7 @@ layout: page
 .grace-block-title2{font-size:15px; line-height:1.6em; text-align:center; margin-top:5px; color:#525252;}
 .grace-block-text{line-height:2.2em; padding:5px 0; color:#888; padding-bottom:8px;}
 .grace-blocks-img{width:100%;}
-.grace-blocks-img img{width:100%;}
+.grace-blocks-img img{width:100%;height:60px;}
 .grace-blocks li:hover{box-shadow:0px 1px #5FB878;}
 .grace-blocks li:hover .grace-block-title{color:#5FB878;}
 .grace-blocks li:hover i{color:#5FB878;}
@@ -86,6 +86,14 @@ li{list-style:none; overflow:hidden;}
                         <img src="https://p.ananas.chaoxing.com/star3/origin/f7b23e6ca0cc933677b871911f128a05.png" />
                     </div>
                     <div class="grace-block-title2">图片无损优化减肥JPG-C</div>
+                </a>
+            </li>
+            <li>
+                <a href="/article/tools/githubpix图片上传">
+                    <div class="grace-blocks-img">
+                        <img src="https://cdn.jsdelivr.net/gh/yaoGrace/imgCdn@main/CDN/github.75i0bvsg09w0.jpg" />
+                    </div>
+                    <div class="grace-block-title2">github-picx图床</div>
                 </a>
             </li>
         </ul>
