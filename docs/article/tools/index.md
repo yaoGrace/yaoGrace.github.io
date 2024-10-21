@@ -91,7 +91,7 @@ li{list-style:none; overflow:hidden;}
             <li>
                 <a href="/article/tools/githubpix图片上传">
                     <div class="grace-blocks-img">
-                        <img src="https://cdn.jsdelivr.net/gh/yaoGrace/imgCdn@main/CDN/github.75i0bvsg09w0.jpg" />
+                        <img src="https://p.cldisk.com/star3/origin/b8b0f9f38bb7d917f7df0561cad02797.png" />
                     </div>
                     <div class="grace-block-title2">github-picx图床</div>
                 </a>
