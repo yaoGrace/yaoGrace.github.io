@@ -71,7 +71,7 @@ li{list-style:none; overflow:hidden;}
                 常用软件库
             </div> 
             <div class="grace-h3 grace-text-center grace-color-white grace-banner-top2">
-            收集自己常用软件，避免忘记 ^_^   
+            收集自己常用软件，避免忘记 ^_^  
             </div>
         </div>
     <div class="grace-line-title grace-main grace-margin-top">
@@ -83,7 +83,7 @@ li{list-style:none; overflow:hidden;}
             <li>
                 <a href="/article/tools/图片无损优化减肥软件">
                     <div class="grace-blocks-img">
-                        <img src="https://p.ananas.chaoxing.com/star3/origin/f7b23e6ca0cc933677b871911f128a05.png" />
+                        <img  style="height:60px" src="https://p.ananas.chaoxing.com/star3/origin/f7b23e6ca0cc933677b871911f128a05.png" />
                     </div>
                     <div class="grace-block-title2">图片无损优化减肥JPG-C</div>
                 </a>
@@ -91,7 +91,7 @@ li{list-style:none; overflow:hidden;}
             <li>
                 <a href="/article/tools/githubpix图片上传">
                     <div class="grace-blocks-img">
-                        <img src="https://p.cldisk.com/star3/origin/b8b0f9f38bb7d917f7df0561cad02797.png" />
+                        <img style="height:60px" src="https://p.cldisk.com/star3/origin/06e9b7dd078f6bd766bdfeac067f1fba.png" />
                     </div>
                     <div class="grace-block-title2">github-picx图床</div>
                 </a>
@@ -99,7 +99,7 @@ li{list-style:none; overflow:hidden;}
             <li>
                 <a href="/article/tools/FastStoneCapture截图软件">
                     <div class="grace-blocks-img">
-                        <img src="https://p.cldisk.com/star3/origin/103573df229911aaefab7e684596d29b.png" />
+                        <img  style="height:60px" src="https://p.cldisk.com/star3/origin/103573df229911aaefab7e684596d29b.png" />
                     </div>
                     <div class="grace-block-title2">FSCapture v10.7 中文破解绿色便携版</div>
                 </a>
