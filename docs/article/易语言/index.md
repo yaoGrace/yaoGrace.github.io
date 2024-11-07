@@ -79,15 +79,7 @@ li{list-style:none; overflow:hidden;}
     </div>
     <div class="grace-blocks" style="padding-top:10px;">
         <ul class="grace-main">
-            <!-- 每增加一个软件，就可以在下面复制下面的li标签，然后修改里面的内容 -->
-            <li>
-                <a href="https://sharewh1.xuexi365.com/share/download/cc90164cb3209dfd3d512a1ae16340bf">
-                    <div class="grace-blocks-img">
-                        <img  style="height:60px" src="https://p.cldisk.com/star3/origin/2e67829009cd6f25118bb42ef3177f0c.png" />
-                    </div>
-                    <div class="grace-block-title2">易语言5.95精简版下载<br>(不包括知识库和多媒体教程)</div>
-                </a>
-            </li>
+            <!-- 每增加一个软件，就可以在下面复制下面的li标签，然后修改里面的内容 --> 
             <li>
                 <a href="/article/易语言/易语言下载">
                     <div class="grace-blocks-img">
@@ -95,15 +87,7 @@ li{list-style:none; overflow:hidden;}
                     </div>
                     <div class="grace-block-title2">易语言5.95完全版下载<br>(包括知识库和多媒体教程)</div>
                 </a>
-            </li>
-            <li>
-                <a target="blank"  href="https://sharewh1.xuexi365.com/share/download/2b4a468a58cd26f792eff7badc69b730">
-                    <div class="grace-blocks-img">
-                        <img  style="height:60px" src="https://p.cldisk.com/star3/origin/2b58e4db31727559d46af625b6543336.png" />
-                    </div>
-                    <div class="grace-block-title2">易语言5.9正版免狗工具<br>(实现补丁+静态VC6链接)</div>
-                </a>
-            </li>
+            </li> 
         </ul>
     </div>
     
