@@ -13,12 +13,14 @@ hero:
       text: 主页
       link: /
     - theme: alt
-      text: 我写的网站
+      text: 我的网站
       link: http://zhongyi.666443.xyz/
     - theme: alt
       text: 中医自学
       link: /article/中医/  
-
+    - theme: alt
+      text: 易语言
+      link: /article/易语言/ 
 features:
   - title: 高效快速
     icon:

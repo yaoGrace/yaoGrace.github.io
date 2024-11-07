@@ -1,11 +1,11 @@
 export default [
     { text: "首页", link: "/" },
     {
-      text: "框架",
-      items: [
-        { text: "PHPGrace框架", link: "http://zhongyi.666443.xyz/doc-sections-22-40-0.htm" },
+      text: "编程",
+      items: [ 
         {text:"我的网站",link:"http://zhongyi.666443.xyz/"},
         { text: "zui前端框架", link: "https://yaograce.github.io/zui/3/" }, 
+        { text: "易语言", link: "/article/易语言/" },
       ],
     }, 
     {
