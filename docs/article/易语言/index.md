@@ -99,21 +99,21 @@ li{list-style:none; overflow:hidden;}
     <div class="grace-blocks" style="padding-top:10px;">
         <ul class="grace-main">
             <!-- 每增加一个软件，就可以在下面复制下面的li标签，然后修改里面的内容 -->
-            <li>
-                <a href="https://www.bilibili.com/video/BV11E411C7yx">
-                <div class="grace-blocks-img"> <img src="https://i1.hdslb.com/bfs/archive/b038e37f2bf763058ecc18059fd5d6f195952f5b.jpg@672w_378h_1c_!web-search-common-cover.avif"> </div>
-                <div class="grace-block-title2">世宝易语言·第一季</div>
+            <li><!--https://www.bilibili.com/video/BV11E411C7yx-->
+                <a href="/article/易语言/BaseShibaoOneCourse">
+                <div class="grace-blocks-img"> <img style="width:274px;height:154px" src="https://p.cldisk.com/star3/origin/e28965e26218420930c1a51d432304f4.png"> </div>
+                <div class="grace-block-title2">世宝易语言基础教程·第一季</div>
                 </a>
             </li> 
             <li>
                 <a href="https://www.bilibili.com/video/BV1QD1VYLEKY/">
-                <div class="grace-blocks-img"> <img src="https://i2.hdslb.com/bfs/archive/ec08afa1503bc56e5c2f7137d0b99b3f454334b0.jpg@672w_378h_1c_!web-search-common-cover.avif"> </div>
-                <div class="grace-block-title2">世宝易语言·第二季</div>
+                <div class="grace-blocks-img"> <img style="width:274px;height:154px"  src="https://p.cldisk.com/star3/origin/d555c6f39bcbd00642df43d301f06e87.png"> </div>
+                <div class="grace-block-title2">世宝易语言基础教程·第二季</div>
                 </a>
             </li> 
             <li>
                 <a href="https://www.bilibili.com/video/BV14b411n7Xy">
-                <div class="grace-blocks-img"> <img src="https://i1.hdslb.com/bfs/archive/c7b4d1e667e1569c8140075e9c57be13ebb279f9.jpg@672w_378h_1c_!web-search-common-cover.avif"> </div>
+                <div class="grace-blocks-img"> <img style="width:274px;height:154px"  src="https://p.cldisk.com/star3/origin/647da64bb5ff89a49dbfe196e6d99a06.png"> </div>
                 <div class="grace-block-title2">世恒易语言百集教程</div>
                 </a>
             </li>

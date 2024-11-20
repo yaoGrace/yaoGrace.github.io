@@ -75,7 +75,7 @@ export default defineConfig({
   // markdown 插件tab 增强
   markdown: {
     config(md) {
-      md.use(tabsMarkdownPlugin)
+      md.use(tabsMarkdownPlugin) 
     },
     image: {
       // 开启图片懒加载
